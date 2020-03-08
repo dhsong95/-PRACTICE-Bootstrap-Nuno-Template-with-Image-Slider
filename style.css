@@ -81,6 +81,37 @@ body {
     font-size: 1.1rem;
 }
 
+/*--- Portfolio Section ---*/
+.jumbotron {
+    border-radius: 0;
+    padding: 2rem 0 3rem;
+}
+
+h3.heading {
+    text-transform: uppercase;
+    font-size: 1.9rem;
+    font-weight: 700;
+    padding-bottom: 1.9rem;
+}
+.heading-underline {
+    width: 3rem;
+    height: .2rem;
+    margin: 0 auto 2rem;
+    background-color: #1ebba3;
+}
+.portfolio {
+    overflow-x: hidden;
+}
+.row.no-padding [class*="col-"]  {
+    padding: 0;
+}
+.portfolio img {
+    max-width: 100%;
+    transition: transform .5s ease;
+}
+.portfolio img:hover {
+    transform: scale(1.1);
+}
 /*============ BOOTSTRAP BREAK POINTS:
 
 Extra small (xs) devices (portrait phones, less than 576px)
