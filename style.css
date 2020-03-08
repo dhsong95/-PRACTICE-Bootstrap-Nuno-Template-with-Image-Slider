@@ -85,6 +85,7 @@ body {
 .jumbotron {
     border-radius: 0;
     padding: 2rem 0 3rem;
+    margin-bottom: 2rem;
 }
 
 h3.heading {
@@ -112,6 +113,12 @@ h3.heading {
 .portfolio img:hover {
     transform: scale(1.1);
 }
+
+/*--- Team Section  ---*/
+.card {
+    margin: 2rem;
+}
+
 /*============ BOOTSTRAP BREAK POINTS:
 
 Extra small (xs) devices (portrait phones, less than 576px)
