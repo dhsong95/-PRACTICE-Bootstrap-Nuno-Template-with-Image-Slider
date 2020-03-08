@@ -10,6 +10,7 @@ body {
     display: block;
     height: 4rem;
     margin-top: -4rem;
+    content: "";
 }
 
 .narrow {
@@ -50,6 +51,35 @@ body {
     color: #1ebba3;
 }
 
+/*--- Carousel ---*/
+.carousel-item {
+    height: 100vh;
+}
+.carousel-caption {
+    position: absolute;
+    top: 38%;
+    text-transform: uppercase;
+}
+.carousel-caption h1 {
+    width: 100%;
+    left: 0;
+    right: 0;
+    font-size: 3.8rem;
+    font-weight: 700;
+    letter-spacing: .3rem;
+    text-shadow: .1rem .1rem .8rem black;
+    padding-bottom: 1rem;
+}
+.carousel-caption h3 {
+    font-size: 2rem;
+    text-shadow: .1rem .1rem .5rem black;
+    padding-bottom: 1.6rem;
+}
+.carousel-caption .btn-lg {
+    border-width: medium;
+    border-radius: 0;
+    font-size: 1.1rem;
+}
 
 /*============ BOOTSTRAP BREAK POINTS:
 
