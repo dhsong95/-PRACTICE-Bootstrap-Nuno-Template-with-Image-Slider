@@ -1,3 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+body {
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+    color: #505962;
+}
+
+.offset:before {
+    display: block;
+    height: 4rem;
+    margin-top: -4rem;
+}
+
+.narrow {
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+
+.btn-md {
+    border-width: medium;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    padding: 0.6rem 1.1rem;
+    margin: 1rem;
+    color: white !important;
+}
+
+/*--- Navigation ---*/
+.navbar {
+    text-transform: uppercase;
+    font-size: .9rem;
+    font-weight: 700;
+    letter-spacing: .1rem;
+    background-color: rgba(0, 0, 0, .6) !important;
+}
+.navbar img {
+    height: 2rem;
+}
+.navbar-nav li {
+    padding-right: 1.1rem;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    padding-top: .8rem;
+}
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link:hover {
+    color: #1ebba3;
+}
+
+
 /*============ BOOTSTRAP BREAK POINTS:
 
 Extra small (xs) devices (portrait phones, less than 576px)
